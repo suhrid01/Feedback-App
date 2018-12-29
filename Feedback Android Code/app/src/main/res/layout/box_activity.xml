@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cardview_light_background">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentTop="true"
+            android:src="@drawable/smiley" />
+       <Button
+           android:id="@+id/btf"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_180sdp"
+        android:text="SUBMIT FEEDBACK"
+        android:background="@drawable/rounded_corner_button"
+        android:textColor="#ffffff"
+           android:textStyle="bold|italic"
+           android:layout_marginTop="@dimen/_180sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:padding="15dp"
+        />
+
+        <Button
+            android:id="@+id/atf"
+            android:layout_width="@dimen/_130sdp"
+            android:layout_height="@dimen/_180sdp"
+            android:text="ADD
+            COMPANY"
+            android:background="@drawable/rounded_corner_button"
+            android:textColor="#ffffff"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="@dimen/_180sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:padding="15dp"
+            />
+
+    <Button
+        android:id="@+id/btv"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_180sdp"
+        android:layout_marginTop="@dimen/_180sdp"
+        android:layout_marginLeft="@dimen/_155sdp"
+        android:background="@drawable/rounded_corner_button"
+        android:textStyle="bold|italic"
+        android:padding="15dp"
+
+        android:text="VIEW
+FEEDBACKS"
+
+        android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/rtv"
+            android:layout_width="@dimen/_130sdp"
+            android:layout_height="@dimen/_180sdp"
+            android:layout_marginTop="@dimen/_180sdp"
+            android:layout_marginLeft="@dimen/_155sdp"
+            android:background="@drawable/rounded_corner_button"
+            android:textStyle="bold|italic"
+            android:padding="15dp"
+
+            android:text="REMOVE
+COMPANY"
+
+            android:textColor="#ffffff" />
+
+
+        <Button
+            android:id="@+id/ltv"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_370sdp"
+            android:layout_marginLeft="@dimen/_75sdp"
+            android:background="@drawable/rounded_corner_button"
+            android:textStyle="bold|italic"
+            android:padding="15dp"
+
+            android:text="LOG OUT"
+
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+</LinearLayout>

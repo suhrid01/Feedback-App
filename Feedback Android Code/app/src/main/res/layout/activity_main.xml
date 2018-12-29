@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimaryDark"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+       >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:padding="@dimen/_5sdp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        >
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_100sdp"
+            android:elevation="@dimen/cardview_compat_inset_shadow">
+
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+
+                android:text=" SIMPLIED MANAGEMENT SOLUTIONS
+  Simplifying Digital Experience.
+Welcome to the world of Simplicity!"
+
+                android:textSize="@dimen/_16sdp"/>
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv1"
+                android:textSize="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_60sdp"
+                android:text="   9/12, Lal Bazaar Street Kolkata-700001.
+    Contact Us - 8450077595/9331177595." />
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:padding="@dimen/_5sdp"
+
+                android:text="DEAR GUEST, WE VALUE YOUR FEEDBACK"
+                android:background="#ffffff"/>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_375sdp"
+
+                android:layout_marginTop="@dimen/_32sdp"
+                android:elevation="@dimen/cardview_compat_inset_shadow">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t1"
+                    android:layout_marginTop="@dimen/_5sdp"
+
+                    android:textSize="@dimen/_11sdp" />
+
+                <RatingBar
+                    android:id="@+id/rt1"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_50sdp"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t2"
+                    android:layout_marginTop="@dimen/_62sdp"
+
+                    android:textSize="@dimen/_11sdp" />
+                <RatingBar
+                    android:id="@+id/rt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_50sdp"
+                    android:layout_marginTop="@dimen/_80sdp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_120sdp"
+                    android:id="@+id/t3"
+
+                    android:textSize="@dimen/_11sdp" />
+                <RatingBar
+                    android:id="@+id/rt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_50sdp"
+                    android:layout_marginTop="@dimen/_140sdp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_185sdp"
+                    android:id="@+id/t4"
+
+                    android:textSize="@dimen/_11sdp" />
+                <RatingBar
+                    android:id="@+id/rt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_50sdp"
+                    android:layout_marginTop="@dimen/_200sdp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_245sdp"
+                    android:id="@+id/t5"
+
+                    android:textSize="@dimen/_10sdp" />
+                <RatingBar
+                    android:id="@+id/rt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_50sdp"
+                    android:layout_marginTop="@dimen/_260sdp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_305sdp"
+                    android:id="@+id/t6"
+
+                    android:textSize="@dimen/_11sdp" />
+                <RatingBar
+                    android:id="@+id/rt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_50sdp"
+                    android:layout_marginTop="@dimen/_320sdp"
+                    />
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_130sdp"
+                android:elevation="@dimen/cardview_compat_inset_shadow">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        android:text=" HOW DID YOU KNOW ABOUT US?"
+                        android:textSize="@dimen/_11sdp"/>
+                    <RadioGroup
+                        android:id="@+id/source"
+                        android:layout_marginTop="@dimen/_1sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <RadioButton
+                            android:id="@+id/rb3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_15sdp"
+                            android:text="Friend"
+
+                            android:textSize="@dimen/_10sdp"/>
+                        <RadioButton
+                            android:id="@+id/rb4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/rb3"
+                            android:layout_marginTop="@dimen/_15sdp"
+                            android:text="Advertisement"
+
+                            android:textSize="@dimen/_10sdp"/>
+                        <RadioButton
+                            android:id="@+id/rb5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Social Media"
+                            android:layout_marginTop="@dimen/_15sdp"
+                            android:layout_toRightOf="@+id/rb4"
+
+                            android:textSize="@dimen/_10sdp"/>
+                        <RadioButton
+                            android:id="@+id/rb6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Other"
+                            android:layout_marginTop="@dimen/_15sdp"
+                            android:layout_toRightOf="@+id/rb5"
+
+                            android:textSize="@dimen/_10sdp"/>
+                    </RadioGroup>
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_40sdp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:text=" WOULD YOU RECOMMEND US TO A FRIEND?"
+                        android:textSize="@dimen/_11sdp"/>
+                    <RadioGroup
+                        android:id="@+id/reccomend"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <RadioButton
+                            android:id="@+id/rb10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_15sdp"
+                            android:text="Most Likely"
+
+                            android:textSize="@dimen/_10sdp"/>
+                        <RadioButton
+                            android:id="@+id/rb11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/rb10"
+                            android:layout_marginTop="@dimen/_15sdp"
+                            android:layout_marginLeft="@dimen/_50sdp"
+                            android:text="Not Likely"
+
+                            android:textSize="@dimen/_10sdp"/>
+
+                    </RadioGroup>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_60sdp"
+                    android:layout_marginTop="@dimen/_80sdp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:text=" HOW WAS YOUR EXPERIENCE TODAY?"
+                        android:textSize="@dimen/_11sdp"/>
+                    <RadioGroup
+                        android:id="@+id/experience"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <RadioButton
+                            android:id="@+id/rb7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="@dimen/_15sdp"
+                            android:text="Above   "
+
+                            android:textSize="@dimen/_10sdp"/>
+                        <RadioButton
+                            android:id="@+id/rb8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/rb7"
+                            android:layout_marginTop="@dimen/_15sdp"
+                            android:text="At Par   "
+                            android:textSize="@dimen/_10sdp"/>
+
+                        <RadioButton
+                            android:id="@+id/rb12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Below   "
+                            android:layout_marginTop="@dimen/_15sdp"
+                            android:layout_toRightOf="@+id/rb8"
+
+                            android:textSize="@dimen/_10sdp"/>
+                    </RadioGroup>
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:padding="@dimen/_5sdp"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:padding="@dimen/_5sdp"
+
+            android:text="CUSTOMER DETAILS"
+            android:background="#ffffff"/>
+
+            <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_228sdp"
+            android:layout_marginTop="@dimen/_32sdp"
+            android:elevation="@dimen/cardview_compat_inset_shadow">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Name"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:textSize="@dimen/_16sdp"/>
+
+                <EditText
+                    android:id="@+id/et1"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="@dimen/_65sdp"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter your Name"
+                    android:inputType="textPersonName"
+                    android:background="@drawable/edittext_bg"
+                    android:padding="3dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Email"
+                    android:layout_marginTop="@dimen/_35sdp"
+                    android:textSize="@dimen/_15sdp"/>
+
+                <EditText
+                    android:id="@+id/et2"
+                    android:layout_marginTop="@dimen/_35sdp"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="@dimen/_65sdp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:hint="Enter your Email"
+                    android:background="@drawable/edittext_bg"
+                    android:padding="3dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Mobile"
+                    android:layout_marginTop="@dimen/_65sdp"
+                    android:textSize="@dimen/_15sdp"/>
+
+                <EditText
+                    android:id="@+id/et3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_65sdp"
+                    android:background="@drawable/edittext_bg"
+                    android:layout_marginLeft="@dimen/_65sdp"
+                    android:hint="Enter your Mobile Number"
+                    android:inputType="phone"
+                    android:padding="3dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Birthday"
+                    android:layout_marginTop="@dimen/_95sdp"
+                    android:textSize="@dimen/_15sdp"/>
+
+                <EditText
+                    android:id="@+id/et4"
+                    android:layout_marginTop="@dimen/_95sdp"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="@dimen/_65sdp"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter your Birthdate(DD/MM/YY)"
+                    android:inputType="date"
+                    android:background="@drawable/edittext_bg"
+                    android:padding="3dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Marital Status"
+                    android:layout_marginTop="@dimen/_125sdp"
+                    android:textSize="@dimen/_15sdp"/>
+                <RadioGroup
+                    android:id="@+id/mar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Married"
+                    android:layout_marginTop="@dimen/_145sdp"/>
+
+                <RadioButton
+                    android:id="@+id/rb2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Unmarried"
+
+                   />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/tv123"
+                    android:visibility="invisible"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Anniversary Date"
+                    android:layout_marginLeft="@dimen/_100sdp"
+                    android:layout_marginTop="@dimen/_145sdp"
+                    android:textSize="@dimen/_15sdp"/>
+
+                <EditText
+                    android:visibility="invisible"
+                    android:id="@+id/et5"
+                    android:layout_marginTop="@dimen/_170sdp"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="@dimen/_100sdp"
+                    android:layout_height="wrap_content"
+                    android:hint="Anniversary Date(DD/MM/YY)"
+                    android:inputType="date"
+                    android:background="@drawable/edittext_bg"
+                    android:padding="3dp"
+                    />
+                <TextView
+
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Bill Amount"
+                    android:layout_marginTop="@dimen/_200sdp"
+                    android:textSize="@dimen/_15sdp"/>
+
+                <EditText
+
+                    android:id="@+id/et7"
+                    android:layout_marginTop="@dimen/_200sdp"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="@dimen/_85sdp"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Approx. Bill Amount"
+                    android:inputType="date"
+                    android:background="@drawable/edittext_bg"
+                    android:padding="3dp"
+                    />
+
+            </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:padding="@dimen/_5sdp"
+       >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:padding="@dimen/_5sdp"
+            android:textStyle="bold"
+            android:text="ANY WORDS OF ADVICE OR SUGGESTION"
+            android:background="#ffffff"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp"
+        android:elevation="@dimen/cardview_compat_inset_shadow"
+        android:layout_marginTop="@dimen/_32sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Suggestion"
+            android:textSize="@dimen/_15sdp"/>
+
+        <EditText
+            android:id="@+id/et6"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:hint="Enter your suggestion"
+            android:inputType="textLongMessage"
+            android:background="@drawable/edittext_bg"
+            android:padding="3dp"
+            />
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+        <CheckBox
+            android:id="@+id/cb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subscribe to our Offers and Newsletters and get notified!"
+            android:textColor="#ffffff"
+            android:buttonTint="#ffffff"
+            />
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="SUBMIT"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_90sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:backgroundTint="#ffffff"
+            android:background="@drawable/rounded_corner_button"/>
+    </LinearLayout>
+</ScrollView>
